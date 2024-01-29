@@ -1,7 +1,7 @@
 # Write a program that prints your name and your college name.
 
 # Assign values to variables
-my_name = "Rahul Kanjariya"
+my_name = "Dhaval Sojitra"
 college_name = "Atmiya University University"
 
 # Print name and college name
