@@ -2,7 +2,7 @@
 
 
 my_name = "Dhaval Sojitra"
-my_address = "Ram Mandir Street,\nJunanagna,\nJamnagar,\nGujarat"
+my_address = "Plot Vistar,\nRasnal,\nBotad,\nGujarat"
 
 # Print name and address on separate lines
 print("Name:", my_name)
