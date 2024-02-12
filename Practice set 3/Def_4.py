@@ -8,4 +8,7 @@ elif marks>70:
     print("Grade : B1")
 elif marks>60:
     print("Grade : B")
-
+elif marks>50:
+    print("Grade : Can do Better!")
+else:
+    print("Need to work hard")
