@@ -1,4 +1,4 @@
-a = input("Enter Any String :")
+a = str.lower(input("Enter Any String :"))
 print("---------------------------------")
 len = len(a)
 vowel = 0
