@@ -1,3 +1,4 @@
+# 7) Accept the string from the user; display the count of vowels and consonants.
 a = str.lower(input("Enter Any String :"))
 print("---------------------------------")
 len = len(a)
