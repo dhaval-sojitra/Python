@@ -6,7 +6,15 @@ while ans.lower() == 'y':
         print(num," is an Even Number.")
         print("--------------------------")
         ans = input("Do you want to check another number? Y/N ")
+        if  ans.lower() != 'y' and ans.lower()!='n':
+            while ans.lower() != 'y' and ans.lower()!='n':
+                print("Please enter only Y or N..")
+                ans = input("Do you want to check another number? Y/N ")
+
     else :
         print(num," is an Odd Number.")
         print("--------------------------")
         ans = input("Do you want to check another number? Y/N ")
+        if(ans.lower() != 'y' and ans.lower()!='n'):
+            print("Please enter only Y or N..")
+            ans = input("Do you want to check another number? Y/N ")
