@@ -9,4 +9,4 @@ while ans.lower() == 'y':
     else :
         print(num," is an Odd Number.")
         print("--------------------------")
-        print("Do you want to check another number? Y/N ")
+        ans = input("Do you want to check another number? Y/N ")
