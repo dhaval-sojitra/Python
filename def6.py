@@ -7,9 +7,9 @@ print("Binary to decimal : ",dnum1)
 num2  ="0o214"
 onum2 = int(num2,8)
 print("Octal to Decimal : ",onum2)
-
+# print("-----------")
 #Hexadecimal to decimal
 num3 = "2e"
 hnum3 = int(num3,16)
-print("Hexadecimal to Decimal: ",hnum3)
+print("Hexadecimal to Decimal : ",hnum3)
 
