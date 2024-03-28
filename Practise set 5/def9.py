@@ -1,0 +1,26 @@
+# 9. Create a numeric array and do the following: append the element, pop the element, insert an
+# element at the desired postion, reverse the elements in the array, convert the array to list.
+
+from array import *
+arr = array('i',[10,20,30,40])
+print("Array :\n",arr)
+print("-----------------------------------------")
+print("Append the element : ")
+arr.append(100)
+print(arr)
+print("-----------------------------------------")
+print("Pop the element : ")
+print("Pop the element :")
+arr.pop()
+print(arr)
+print("-----------------------------------------")
+print("Insert an element at the desired postion")
+arr.insert(2,500)
+print(arr)
+print("-----------------------------------------")
+print("Reverse the elements in the array")
+print(arr,arr.reverse())
+print("-----------------------------------------")
+print("Convert the array to list")
+lst=list(arr)
+print(lst)
