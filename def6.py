@@ -12,6 +12,6 @@ print("Octal to Decimal : ",onum2)
 num3 = "2e"
 hnum3 = int(num3,16)
 print("Hexadecimal to Decimal : ",hnum3)
-
+#print("Hexadecimal to Decimal : ",hnum3)
 
 
