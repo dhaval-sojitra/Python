@@ -27,7 +27,7 @@
 # print("The sum of two digits is :",a)
 
 # #find the value is odd or even
-# def check(num):
+ def check(num):
 #     if num%2==0:
 #         print("the number is even")
 #     else:
