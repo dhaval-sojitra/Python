@@ -82,18 +82,40 @@
 # print("Sum = ",sum)
 
 
-#Pie chart 
-import matplotlib.pyplot as plt
+# #Pie chart 
+# import matplotlib.pyplot as plt
 
-branch  = ['BCA','MCA','BBA','MBA','BA']
-student = [100,50,50,25,150]
-col = ['blue','green','yellow','red','pink']
-plt.pie(student,labels=branch,colors=col)
-plt.title("Atmiya University")
-plt.legend()
-plt.show()
+# branch  = ['BCA','MCA','BBA','MBA','BA']
+# student = [0,2500,150,2500,150]
+# col = ['blue','green','yellow','red','pink']
+# # plt.pie(student,labels=branch,colors=col)
+# plt.plot(branch,student,color='black')
+# plt.title("Atmiya University")
+# plt.legend()
+# plt.show()
 
+# #file handling
+# #opne a file
+# f = open('file1','w')
+# str1 = input("Enter Data..")
+# f.write(str1)
+# f.close()
 
+# #read a extisting file
+f = open('file1','r')
+str1 = f.read()
+print(str1)
+f.close()
+
+# #Append
+
+# f = open('file1','a')
+# str1 = input("Enter Data : ")
+# while str1!='$':
+#     if str!='$':
+#         f.write(str1)
+#         break
+# f.close()
 
 
 
