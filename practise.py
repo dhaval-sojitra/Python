@@ -52,39 +52,46 @@
 #     except IndexError:
 #         print("Elements not found..")
         
-#Find Sum of two lists
-l1 = []
-l2 = []
-num1 = ""
-num2 = ""
-val1 = int(input("How many elements you want to enter in first List :"))
-for i in range(val1):
-    a = int(input("Enter {} Element :".format(i)))
-    l1.append(a)
+# #Find Sum of two lists
+# l1 = []
+# l2 = []
+# num1 = ""
+# num2 = ""
+# val1 = int(input("How many elements you want to enter in first List :"))
+# for i in range(val1):
+#     a = int(input("Enter {} Element :".format(i)))
+#     l1.append(a)
 
-print(l1)
-val2 = int(input("How many elements you want to enter in Second List :"))
-for i in range(val2):
-    a = int(input("Enter {} Element :".format(i)))
-    l2.append(a)
-print(l2)
-for i in range(len(l1)):
-    a = l1[i]
-    a =  str(a)
-    num1 = num1 + a
-for i in range(len(l2)):
-    b = l2[i]
-    b = str(b)
-    num2 = num2 + b    
+# print(l1)
+# val2 = int(input("How many elements you want to enter in Second List :"))
+# for i in range(val2):
+#     a = int(input("Enter {} Element :".format(i)))
+#     l2.append(a)
+# print(l2)
+# for i in range(len(l1)):
+#     a = l1[i]
+#     a =  str(a)
+#     num1 = num1 + a
+# for i in range(len(l2)):
+#     b = l2[i]
+#     b = str(b)
+#     num2 = num2 + b    
 
-sum = int(num1) + int (num2)    
-print(num1, "+" ,num2)
-print("Sum = ",sum)
-
-
+# sum = int(num1) + int (num2)    
+# print(num1, "+" ,num2)
+# print("Sum = ",sum)
 
 
+#Pie chart 
+import matplotlib.pyplot as plt
 
+branch  = ['BCA','MCA','BBA','MBA','BA']
+student = [100,50,50,25,150]
+col = ['blue','green','yellow','red','pink']
+plt.pie(student,labels=branch,colors=col)
+plt.title("Atmiya University")
+plt.legend()
+plt.show()
 
 
 
