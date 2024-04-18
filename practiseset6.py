@@ -34,29 +34,29 @@
 # else : 
 #     print("File Not Found..")
 
-# 5. Accept the file name from the user, check the availability of the file:
-# a. If the file exists, display: i). No. of characters, ii). No. of words and iii). No. of lines
-# b. If the file does exist, than display the appropriate message.
+# # 5. Accept the file name from the user, check the availability of the file:
+# # a. If the file exists, display: i). No. of characters, ii). No. of words and iii). No. of lines
+# # b. If the file does exist, than display the appropriate message.
 
-import os
-fname = input("Enter File Name : ")
-if os.path.isfile(fname):
-    f= open(fname,'r')
-    str1 = f.read()
-else : 
-    print("File Not Found..")    
-char = 0
-line = 0
-words = 0
-for i in str1:
-    char+=1
-    if i==" " or i=="\n":
-        words += 1
-    if i=="\n":
-        line += 1
-print("No Of Charactera in the File :",char)
-print("No of words in the file :",words+1)
-print("No of lines in the file :",line+1)
+# import os
+# fname = input("Enter File Name : ")
+# if os.path.isfile(fname):
+#     f= open(fname,'r')
+#     str1 = f.read()
+# else : 
+#     print("File Not Found..")    
+# char = 0
+# line = 0
+# words = 0
+# for i in str1:
+#     char+=1
+#     if i==" " or i=="\n":
+#         words += 1
+#     if i=="\n":
+#         line += 1
+# print("No Of Charactera in the File :",char)
+# print("No of words in the file :",words+1)
+# print("No of lines in the file :",line+1)
 
 # 6. Create and open the binary file with ‘with’ option. Store names of all the subjects you study in
 # semester 2. Ask user to enter the subject number they wanted to see and display that subject
