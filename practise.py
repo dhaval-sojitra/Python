@@ -155,8 +155,8 @@
 # a=array([5,6,7,8] )
 # print(a)
 
-from array import *
-a = array('i',[10,20,30,20,40])
+# from array import *
+# a = array('i',[10,20,30,20,40])
 # print(a)
 # a.append(500)
 # print(a)
@@ -169,13 +169,16 @@ a = array('i',[10,20,30,20,40])
 # print(a,a.reverse())
 # li = list(a)
 # print("list ",li)
-val = int(input("enter element :"))
-print(a.index(val))
+# val = int(input("enter element :"))
+# print(a.index(val))
 
-
-
-
-
+# f = open("text.txt","w")
+# str = input("Enter Content :")
+# f.write(str)
+import re
+str1 = "Hello!Iam MCAStudent. Iam Study In AtmiyaUniversity."
+res = re.split(r'[\W_]', str1 )
+print(res) 
 
 
 
