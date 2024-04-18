@@ -102,10 +102,10 @@
 # f.close()
 
 # #read a extisting file
-f = open('file1','r')
-str1 = f.read()
-print(str1)
-f.close()
+# f = open('file1','r')
+# str1 = f.read()
+# print(str1)
+# f.close()
 
 # #Append
 
@@ -117,12 +117,60 @@ f.close()
 #         break
 # f.close()
 
+# dic = {"name" : "dhaval","city" : "Surat"}
+# print(dic)
+# print(dic.keys())
+# print(dic.values())
+# dic["name"] = "keval"
+# print(dic)
+# dic["age"] = 21
+# print(dic)
 
+# months = ["jan","feb","march","april","may"]
+# print(months)
+# cin = "jan" in months
+# print(cin)
+# nin = "dec" not in months
+# print(nin)
 
+# val = input("enter value :")
+# val.split(" ")
+# print(val)
+# # print(val[0])
+# print(val[2])
 
+# import sys
+# num1 = int(sys.argv[1])
+# num2 = int(sys.argv[2])
+# print(num1,"+",num2,"=",num1+num2)
 
+# li = []
+# no =int(input("How many ? "))
+# for i in range(no):
+#     val = input("enter :")
+#     li.append(val)
+# print(sorted(li))
 
+# from numpy import *
+# a=array([5,6,7,8] )
+# print(a)
 
+from array import *
+a = array('i',[10,20,30,20,40])
+# print(a)
+# a.append(500)
+# print(a)
+# a.pop()
+# print(a)
+# a.remove(a[1])
+# print(a)
+# a.insert(2,200)
+# print(a)
+# print(a,a.reverse())
+# li = list(a)
+# print("list ",li)
+val = int(input("enter element :"))
+print(a.index(val))
 
 
 
