@@ -24,10 +24,10 @@ con = sqlite3.connect('mydb.dp')
 # for i in cursor:
 #     print(i)
 
-sq_del = "delete from stude_data where roll =3"
-cursor = con.execute(sq_del)
-for i in cursor:
-    print(i)
-cursor = con.execute('select * from stude_data')
-for i in cursor:
-    print(i)
+# sq_del = "delete from stude_data where roll =3"
+# cursor = con.execute(sq_del)
+# for i in cursor:
+#     print(i)
+# cursor = con.execute('select * from stude_data')
+# for i in cursor:
+#     print(i)
